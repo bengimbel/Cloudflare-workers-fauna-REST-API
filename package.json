@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "fauna-workers",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "build/index.mjs",
+  "scripts": {
+    "build": "worktop build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "bengimbel",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "worktop.build": "^0.0.4"
+  },
+  "dependencies": {
+    "faunadb": "^4.5.2",
+    "worktop": "^0.7.3"
+  }
+}
